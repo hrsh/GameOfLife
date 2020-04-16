@@ -11,7 +11,7 @@ namespace GameOfLife
             const int w = 30;
             const int h = 30;
 
-            var u = Simpleline(w, h);
+            var u = Spaceship(w, h);
 
             DrawWorld(u, w, h);
             Console.ReadKey();
